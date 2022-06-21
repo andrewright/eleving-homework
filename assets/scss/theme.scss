@@ -1,0 +1,39 @@
+$theme-colors: (
+  "primary":    #15B0FC,
+  "secondary":  #EEEEEE,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+.modal-open {
+  #__nuxt {
+    filter: blur(9px);
+  }
+}
+#__nuxt {
+  h1 {
+    font-weight: bold;
+  }
+  .form-group {
+    label {
+      font-weight: 700;
+    }
+  }
+  .btn {
+    font-weight: 700;
+  }
+  .btn-primary {
+    padding: 9px 0;
+  }
+  .btn-link {
+    padding: 0;
+  }
+  .btn-secondary {
+    border: 2px solid #C8D3DB;
+  }
+}
+
+
