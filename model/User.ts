@@ -1,6 +1,6 @@
-type IPhoneType = 'work' | 'home' | 'mobile' | 'main' | 'other';
+export type IPhoneType = 'work' | 'home' | 'mobile' | 'main' | 'other';
 
-interface IPhone {
+export interface IPhone {
   type: IPhoneType;
   number: string;
 }

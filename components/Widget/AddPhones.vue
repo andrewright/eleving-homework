@@ -35,10 +35,10 @@
     },
     methods: {
       changePhoneType(e) {
-        console.log('AddPhones.vue:38', e);
+        this.$store.commit('user/changePhone', {type: 'work', number: e});
       },
       addPhone() {
-        this.$store.commit('user/addPhone', this.$props.list);
+        this.$store.commit('user/addPhone', this.options.map(item => item.value));
       }
     }
   }
